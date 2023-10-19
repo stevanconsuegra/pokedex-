@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(250, 250, 250);
+    justify-content: oswald;
+
+}
+
+header{
+    background-color: rgb(36, 33, 33);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+body{
+    background-image: url(./img/body_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-evenly;
+    margin: 50px 250px ;
+ }
+
+ .hola{
+    
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(48, 43, 43);
+    border: 5px solid #000;
+    border-radius: 22px;
+    margin: 12px;
+
+}
+
+.scroll{
+    width: 800px;
+    height: 300px;
+    overflow-x: scroll;
+    background-image: url(./img/descarga\ \(4\).jpg);
+    display: flex;
+    border-radius: 10px;
+
+}
+ .ñ{
+    background-color: rgb(9, 116, 5);
+    border-radius: 3px
+ }
+
+ .vb{
+    background-color: rgb(0, 89, 255);
+    border-radius: 3px
+ }
+ .fj{
+    background-color: rgb(255, 102, 0);
+    border-radius: 3px
+ }
+ .xz{
+    background-color: rgb(182, 240, 225);
+    border-radius: 3px
+ }
+ 
+.tr{
+   background-color: rgb(0, 255, 0);
+   border-radius: 3px
+}
+.u{
+    background-color: rgb(138, 10, 138);
+    border-radius: 3px;
+}
+
+.numero{
+    display: flex;
+    justify-content: space-between;
+
+}
+.tipo{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.hola:hover {
+    transform: scale(1.1);
+    transition: ease 0.5s;
+}
+img:hover {
+    transform: scale(1.1);
+    transition: ease 0.5s;
+}
+.tr:hover{
+    transform: scale(1.1);
+    transition: ease 0.5s;
+}
+
+.cv:hover{
+    transform: scale(1.1);
+    transition: ease 0.5s;
+}
+.u:hover{
+    transform: scale(1.1);
+    transition: ease 0.5s;
+}
+.fj:hover{
+    transform: scale(1.1);
+    transition: ease 0.5s;
+}
+
+.xz:hover{
+    transform: scale(1.1);
+    transition: ease 0.5s;
+}
+.vb:hover{
+    transform: scale(1.1);
+    transition: ease 0.5s;
+}
+
+.ñ:hover{
+    transform: scale(1.1);
+    transition: ease 0.5s;
+}
+
+
+.bulbasaur{
+    border: 5px solid #34c90f;
+    border-radius: 30px;
+}
+.ivysaur{
+    border: 5px solid #34c90f;
+    border-radius: 30px;
+}
+.venusaur{
+    border: 5px solid #34c90f;
+    border-radius: 30px;
+}
+.charmander{
+    border: 5px solid rgb(255, 102, 0);
+    border-radius: 30px;
+}
+.charmeleon{
+    border: 5px solid rgb(255, 102, 0);
+    border-radius: 30px;
+    background-image: url(./img/descarga\ \(1\).jpg);
+}
+
+.charizard{
+    border: 5px solid rgb(255, 102, 0);
+    border-radius: 30px;
+    background-image: url(./img/EkX3DHmYmt1HY16C1jFC--1--004cw.webp);
+}
+
+.squirtle{
+    border: 5px solid rgb(0, 89, 255);
+    border-radius: 30px;
+}
+
+.wartortle{
+    border: 5px solid rgb(0, 89, 255);
+    border-radius: 30px;
+}
+.blastoise{
+    border: 5px solid rgb(0, 89, 255);
+    border-radius: 30px;
+}
+.caterpie{
+    border: 5px solid #197402;
+    border-radius: 30px;
+}
+.metapod{
+    border: 5px solid #197402;
+    border-radius: 30px;
+    background-image: url(./img/descarga.jpg);
+}
+.butterfree{
+    border: 5px solid #197402;
+    border-radius: 30px;
+    background-image: url(./img/images.jpg);
+}
+.Weedle{
+    border: 5px solid #197402;
+    border-radius: 30px;
+    background-image: url(./img/descarga\ \(2\).jpg);
+}
+
+.kakuna{
+    border: 5px solid #197402;
+    border-radius: 30px;
+    background-image: url(./img/200px-EP067_Grupo_de_Kakuna.png);
+}
+
+.Beedrill{
+    border: 5px solid #197402;
+    border-radius: 30px;
+    background-image: url(./img/images.jpg);
+}
+
+main div::-webkit-scrollbar{
+    width: 30px;
+}
+main div::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 83, 0);
+     border-radius: 10px;
+}
